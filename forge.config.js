@@ -19,4 +19,16 @@ module.exports = {
       config: {},
     },
   ],
+  publishers: [
+    {
+      name: '@electron-forge/publisher-github',
+      config: {
+        repository: {
+          owner: 'tweissin',
+          name: 'filesystem-electron'
+        },
+        prerelease: true
+      }
+    }
+  ],
 };
