@@ -1,6 +1,4 @@
-name: Build/release
-
-name: Release
+name: Create Release
 on:
   release:
     types:
